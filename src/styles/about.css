@@ -1,0 +1,79 @@
+.about {
+    min-height: calc(100vh - 207px - 73px);
+}
+
+.content {
+    margin: 50px 100px;
+    color: #566573;
+}
+
+.content__title hr {
+    width: 5%;
+    margin: 10px auto;
+    text-align: center;
+    border-color: #566573;
+}
+
+.content__logo img {
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+}
+
+.content__text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.content__text div {
+    margin: 10px 20px;
+    text-align: justify;
+    width: 40%;
+}
+
+.content__text .text__h3 {
+    color: #17A68C;
+    margin: 10px 0;
+}
+
+.card {
+    margin: auto;
+    max-width: 482px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.card__img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F9F8;
+    padding: 20px;
+    color: #566573;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card__text .hero__button {
+    margin: 0;
+}
+
+.card__text h2 {
+    margin: 0 50px;
+    align-items: center;
+}
+
+.card__comming {
+    margin: 40px;
+    text-align: center;
+    color: #566573;
+}

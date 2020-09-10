@@ -1,0 +1,8 @@
+.politic {
+    margin: 100px;
+    min-height: calc(100vh - 207px - 73px);
+}
+
+.politic p {
+    margin: 20px 0;
+}

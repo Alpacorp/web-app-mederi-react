@@ -1,0 +1,29 @@
+.services__container {
+    min-height: calc(100vh - 207px - 73px);
+}
+
+.services {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    color: #566573;
+}
+
+.services__subtitle h2 {
+    color: #1A5276;
+    margin: 20px 0;
+}
+
+.title {
+    margin: 50px 100px;
+    color: #566573;
+}
+
+.button {
+    margin: 20px;
+    text-align: center;
+}
+
+.services ol {
+    margin: 0 20px;
+}

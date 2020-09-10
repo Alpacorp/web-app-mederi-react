@@ -1,0 +1,130 @@
+.schedule {
+    min-height: calc(100vh - 207px - 73px);
+}
+
+.doctor {
+    display: flex;
+    margin: 50px 100px;
+    color: #566573;
+}
+
+.doctor__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.description__img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    box-shadow: 0px 0px 9px 0px black;
+}
+
+.description__first-name,
+.description__first-ocupation,
+.description__first-calification {
+    margin-bottom: 5px;
+}
+
+.description__first-ocupation {
+    color: #194973;
+}
+
+.description__calification i {
+    cursor: pointer;
+}
+
+.description__first-name a {
+    color: #566573;
+    text-decoration: none;
+}
+
+.description__first-name a i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.description__first-name a:hover {
+    text-decoration: underline;
+    color: #17A68C;
+}
+
+.doctor__services {
+    margin: 5px 20px;
+}
+
+.doctor__services-text {
+    color: #17A68C;
+}
+
+.doctor__services ul {
+    margin: 10px 0 0 20px;
+}
+
+.doctor__channel {
+    margin: 20px;
+}
+
+.doctor__channel h3 {
+    color: #17A68C;
+}
+
+.doctor__channel p {
+    margin: 10px 0;
+}
+
+.doctor__channel i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.hero__button i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.doctor__price {
+    margin: 5px 20px;
+    font-size: 18px;
+}
+
+.doctor__price strong {
+    color: #1A5276;
+}
+
+.doctor__schedule {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.doctor__schedule h3 i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.doctor__schedule button {
+    width: 30%;
+}
+
+.hr {
+    border: 0.5px point #194973;
+    margin: 0 50px;
+}
